@@ -1,9 +1,16 @@
-= closest_fibo
+= Closest Fibonacci
 
-Description goes here.
+Find the closest fobonacci number of a given number
 
-== Contributing to closest_fibo
- 
+= Examples
+
+    156.closest_fibonacci   # => 144 
+    99.closest_fibonacci    # => 89
+    55.5.closest_fibonacci  # => 55
+    53.closest_fibonacci    # => 34
+
+== Contributing to  Closest Fibonacci
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
 * Fork the project
@@ -16,4 +23,3 @@ Description goes here.
 
 Copyright (c) 2011 Rafael Magana. See LICENSE.txt for
 further details.
-
