@@ -14,4 +14,13 @@ describe Integer do
     end
   end
 
+  describe "#closest_fibonacci" do
+    it "should return the closest Fibonacci number smaller than the given integer" do
+      15.closest_fibonacci.must_equal 13
+      13.closest_fibonacci.must_equal 13
+      56.closest_fibonacci.must_equal 55
+      55.closest_fibonacci.must_equal 55
+      54.closest_fibonacci.must_equal 34
+    end
+  end
 end
