@@ -9,6 +9,10 @@ module ClosestFibonacci
         end
         full_sequence
       end
+
+      def closest_fibonacci
+        self.fibonacci[-1]
+      end
     end
   end
 end
