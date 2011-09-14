@@ -6,7 +6,6 @@ Find the closest fobonacci number of a given number
 
     156.closest_fibonacci   # => 144 
     99.closest_fibonacci    # => 89
-    55.5.closest_fibonacci  # => 55
     53.closest_fibonacci    # => 34
 
 #Contributing to  Closest Fibonacci
