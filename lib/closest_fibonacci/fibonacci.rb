@@ -11,7 +11,7 @@ module ClosestFibonacci
       end
 
       def closest_fibonacci
-        self.fibonacci[-1]
+        self.fibonacci.last
       end
     end
   end
